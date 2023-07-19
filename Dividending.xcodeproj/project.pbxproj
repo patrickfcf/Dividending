@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7925A0522984C62C009EB5D8 /* PurchaseKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795E988C29844E11002053A0 /* PurchaseKit.xcframework */; };
+		7925A0532984C62C009EB5D8 /* PurchaseKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 795E988C29844E11002053A0 /* PurchaseKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79352A8E2994485400517399 /* SegmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79352A8D2994485400517399 /* SegmentCollectionViewCell.swift */; };
+		79352A92299448E800517399 /* TileContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79352A91299448E800517399 /* TileContainerView.swift */; };
+		79352A962994492E00517399 /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79352A952994492E00517399 /* BottomViewController.swift */; };
+		79352A98299449AF00517399 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79352A97299449AF00517399 /* NewsViewController.swift */; };
+		79352A9A299449E400517399 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79352A99299449E400517399 /* NewsTableViewCell.swift */; };
+		79352A9D29944A1100517399 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79352A9C29944A1100517399 /* DataManager.swift */; };
+		79352A9F29944A7300517399 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79352A9E29944A7300517399 /* SearchViewController.swift */; };
+		79352AA129944AD700517399 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79352AA029944AD700517399 /* HomeViewController.swift */; };
+		79352AA329944B0C00517399 /* HoldingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79352AA229944B0C00517399 /* HoldingCollectionViewCell.swift */; };
+		79352AA6299461DE00517399 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79352AA5299461DE00517399 /* SearchResults.swift */; };
+		79352AAA299468A800517399 /* DividendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79352AA9299468A800517399 /* DividendModel.swift */; };
+		79352AAD2994699800517399 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79352AAB2994699800517399 /* ResultTableViewCell.swift */; };
+		79352AAE2994699800517399 /* ResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79352AAC2994699800517399 /* ResultTableViewCell.xib */; };
+		795E987429844D5D002053A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795E987329844D5D002053A0 /* AppDelegate.swift */; };
+		795E987B29844D5D002053A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795E987929844D5D002053A0 /* Main.storyboard */; };
+		795E987D29844D5E002053A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795E987C29844D5E002053A0 /* Assets.xcassets */; };
+		795E988D29844E11002053A0 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795E988B29844E11002053A0 /* Launch.storyboard */; };
+		795E989129844E2F002053A0 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795E989029844E2F002053A0 /* AppConfig.swift */; };
+		795E989429844E74002053A0 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 795E989329844E74002053A0 /* GoogleMobileAds */; };
+		795E989629844F5A002053A0 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795E989529844F5A002053A0 /* DashboardViewController.swift */; };
+		797EB01229957B1400FE27E1 /* GoalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797EB01129957B1400FE27E1 /* GoalProgressView.swift */; };
+		797EB01429957E8C00FE27E1 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797EB01329957E8C00FE27E1 /* GoalViewController.swift */; };
+		798CA95E2995AEFA000BC7E2 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CA95D2995AEFA000BC7E2 /* CalendarViewController.swift */; };
+		798CA9602995B4EB000BC7E2 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CA95F2995B4EB000BC7E2 /* CalendarModel.swift */; };
+		798CA9622995B873000BC7E2 /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CA9612995B873000BC7E2 /* CalendarTableViewCell.swift */; };
+		7995D08B29980E650032F9C5 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7995D08A29980E650032F9C5 /* TrendingViewController.swift */; };
+		7995D08D299810E10032F9C5 /* TrendingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7995D08C299810E10032F9C5 /* TrendingTableViewCell.swift */; };
+		79C2044829958B7700ED040C /* PortfolioValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2044729958B7700ED040C /* PortfolioValueViewController.swift */; };
+		79C2044A29959A8E00ED040C /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2044929959A8E00ED040C /* NewsModel.swift */; };
+		79C6C01D2995BDC800445021 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6C01C2995BDC800445021 /* SettingsViewController.swift */; };
+		79FA511E29952A2800F95B14 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79FA511C29952A2800F95B14 /* Database.xcdatamodeld */; };
+		79FA512029952A5500F95B14 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA511F29952A5500F95B14 /* PersistenceManager.swift */; };
+		79FA512229952E4100F95B14 /* DividendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA512129952E4100F95B14 /* DividendViewController.swift */; };
+		79FA512429953A5200F95B14 /* PriceTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA512329953A5200F95B14 /* PriceTextField.swift */; };
+		79FA512629954F2000F95B14 /* PortfolioHoldingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA512529954F2000F95B14 /* PortfolioHoldingModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7925A0542984C62C009EB5D8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7925A0532984C62C009EB5D8 /* PurchaseKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79352A8D2994485400517399 /* SegmentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentCollectionViewCell.swift; sourceTree = "<group>"; };
+		79352A91299448E800517399 /* TileContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileContainerView.swift; sourceTree = "<group>"; };
+		79352A952994492E00517399 /* BottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
+		79352A97299449AF00517399 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		79352A99299449E400517399 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		79352A9C29944A1100517399 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		79352A9E29944A7300517399 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		79352AA029944AD700517399 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		79352AA229944B0C00517399 /* HoldingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingCollectionViewCell.swift; sourceTree = "<group>"; };
+		79352AA5299461DE00517399 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		79352AA9299468A800517399 /* DividendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividendModel.swift; sourceTree = "<group>"; };
+		79352AAB2994699800517399 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		79352AAC2994699800517399 /* ResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultTableViewCell.xib; sourceTree = "<group>"; };
+		795E987029844D5D002053A0 /* Dividending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dividending.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		795E987329844D5D002053A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		795E987A29844D5D002053A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		795E987C29844D5E002053A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		795E988129844D5E002053A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795E988B29844E11002053A0 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		795E988C29844E11002053A0 /* PurchaseKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PurchaseKit.xcframework; sourceTree = "<group>"; };
+		795E989029844E2F002053A0 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		795E989529844F5A002053A0 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		797EB01129957B1400FE27E1 /* GoalProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalProgressView.swift; sourceTree = "<group>"; };
+		797EB01329957E8C00FE27E1 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		798CA95D2995AEFA000BC7E2 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		798CA95F2995B4EB000BC7E2 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+		798CA9612995B873000BC7E2 /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
+		7995D08A29980E650032F9C5 /* TrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		7995D08C299810E10032F9C5 /* TrendingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingTableViewCell.swift; sourceTree = "<group>"; };
+		79C2044729958B7700ED040C /* PortfolioValueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioValueViewController.swift; sourceTree = "<group>"; };
+		79C2044929959A8E00ED040C /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		79C6C01C2995BDC800445021 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		79FA511D29952A2800F95B14 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		79FA511F29952A5500F95B14 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		79FA512129952E4100F95B14 /* DividendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividendViewController.swift; sourceTree = "<group>"; };
+		79FA512329953A5200F95B14 /* PriceTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextField.swift; sourceTree = "<group>"; };
+		79FA512529954F2000F95B14 /* PortfolioHoldingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioHoldingModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		795E986D29844D5D002053A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795E989429844E74002053A0 /* GoogleMobileAds in Frameworks */,
+				7925A0522984C62C009EB5D8 /* PurchaseKit.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79352A9B29944A0500517399 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				79FA511C29952A2800F95B14 /* Database.xcdatamodeld */,
+				79352A9C29944A1100517399 /* DataManager.swift */,
+				79FA511F29952A5500F95B14 /* PersistenceManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		79352AA4299461C900517399 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79C2044929959A8E00ED040C /* NewsModel.swift */,
+				79352AA5299461DE00517399 /* SearchResults.swift */,
+				79352AA9299468A800517399 /* DividendModel.swift */,
+				798CA95F2995B4EB000BC7E2 /* CalendarModel.swift */,
+				79FA512529954F2000F95B14 /* PortfolioHoldingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		795E986729844D5D002053A0 = {
+			isa = PBXGroup;
+			children = (
+				795E987229844D5D002053A0 /* Dividending */,
+				795E987129844D5D002053A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		795E987129844D5D002053A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				795E987029844D5D002053A0 /* Dividending.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		795E987229844D5D002053A0 /* Dividending */ = {
+			isa = PBXGroup;
+			children = (
+				795E988A29844DEC002053A0 /* Views */,
+				795E988929844DE0002053A0 /* Flows */,
+				79352AA4299461C900517399 /* Models */,
+				795E988729844DC5002053A0 /* Lifecycle */,
+				795E988829844DDA002053A0 /* Storyboards */,
+				79352A9B29944A0500517399 /* DataManager */,
+				795E988F29844E21002053A0 /* Configuration */,
+				795E988C29844E11002053A0 /* PurchaseKit.xcframework */,
+				795E987C29844D5E002053A0 /* Assets.xcassets */,
+				795E988129844D5E002053A0 /* Info.plist */,
+			);
+			path = Dividending;
+			sourceTree = "<group>";
+		};
+		795E988729844DC5002053A0 /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				795E987329844D5D002053A0 /* AppDelegate.swift */,
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		795E988829844DDA002053A0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				795E987929844D5D002053A0 /* Main.storyboard */,
+				795E988B29844E11002053A0 /* Launch.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		795E988929844DE0002053A0 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				795E989529844F5A002053A0 /* DashboardViewController.swift */,
+				79352AA029944AD700517399 /* HomeViewController.swift */,
+				79352A97299449AF00517399 /* NewsViewController.swift */,
+				798CA95D2995AEFA000BC7E2 /* CalendarViewController.swift */,
+				79C6C01C2995BDC800445021 /* SettingsViewController.swift */,
+				79352A952994492E00517399 /* BottomViewController.swift */,
+				79352A9E29944A7300517399 /* SearchViewController.swift */,
+				79FA512129952E4100F95B14 /* DividendViewController.swift */,
+				797EB01329957E8C00FE27E1 /* GoalViewController.swift */,
+				79C2044729958B7700ED040C /* PortfolioValueViewController.swift */,
+				7995D08A29980E650032F9C5 /* TrendingViewController.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		795E988A29844DEC002053A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79352A8D2994485400517399 /* SegmentCollectionViewCell.swift */,
+				79352A91299448E800517399 /* TileContainerView.swift */,
+				79352A99299449E400517399 /* NewsTableViewCell.swift */,
+				79352AA229944B0C00517399 /* HoldingCollectionViewCell.swift */,
+				79352AAB2994699800517399 /* ResultTableViewCell.swift */,
+				79352AAC2994699800517399 /* ResultTableViewCell.xib */,
+				79FA512329953A5200F95B14 /* PriceTextField.swift */,
+				797EB01129957B1400FE27E1 /* GoalProgressView.swift */,
+				798CA9612995B873000BC7E2 /* CalendarTableViewCell.swift */,
+				7995D08C299810E10032F9C5 /* TrendingTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		795E988F29844E21002053A0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				795E989029844E2F002053A0 /* AppConfig.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		795E986F29844D5D002053A0 /* Dividending */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795E988429844D5E002053A0 /* Build configuration list for PBXNativeTarget "Dividending" */;
+			buildPhases = (
+				795E986C29844D5D002053A0 /* Sources */,
+				795E986D29844D5D002053A0 /* Frameworks */,
+				795E986E29844D5D002053A0 /* Resources */,
+				7925A0542984C62C009EB5D8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dividending;
+			packageProductDependencies = (
+				795E989329844E74002053A0 /* GoogleMobileAds */,
+			);
+			productName = AppTemplate;
+			productReference = 795E987029844D5D002053A0 /* Dividending.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		795E986829844D5D002053A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					795E986F29844D5D002053A0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 795E986B29844D5D002053A0 /* Build configuration list for PBXProject "Dividending" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 795E986729844D5D002053A0;
+			packageReferences = (
+				795E989229844E74002053A0 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = 795E987129844D5D002053A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				795E986F29844D5D002053A0 /* Dividending */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		795E986E29844D5D002053A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795E987D29844D5E002053A0 /* Assets.xcassets in Resources */,
+				795E987B29844D5D002053A0 /* Main.storyboard in Resources */,
+				79352AAE2994699800517399 /* ResultTableViewCell.xib in Resources */,
+				795E988D29844E11002053A0 /* Launch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		795E986C29844D5D002053A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C2044A29959A8E00ED040C /* NewsModel.swift in Sources */,
+				798CA95E2995AEFA000BC7E2 /* CalendarViewController.swift in Sources */,
+				79352A92299448E800517399 /* TileContainerView.swift in Sources */,
+				79352A962994492E00517399 /* BottomViewController.swift in Sources */,
+				79352A9A299449E400517399 /* NewsTableViewCell.swift in Sources */,
+				79352A8E2994485400517399 /* SegmentCollectionViewCell.swift in Sources */,
+				79FA511E29952A2800F95B14 /* Database.xcdatamodeld in Sources */,
+				79352AAA299468A800517399 /* DividendModel.swift in Sources */,
+				7995D08B29980E650032F9C5 /* TrendingViewController.swift in Sources */,
+				79352AAD2994699800517399 /* ResultTableViewCell.swift in Sources */,
+				79352A9F29944A7300517399 /* SearchViewController.swift in Sources */,
+				795E989129844E2F002053A0 /* AppConfig.swift in Sources */,
+				79352AA329944B0C00517399 /* HoldingCollectionViewCell.swift in Sources */,
+				79FA512429953A5200F95B14 /* PriceTextField.swift in Sources */,
+				79352A98299449AF00517399 /* NewsViewController.swift in Sources */,
+				79FA512629954F2000F95B14 /* PortfolioHoldingModel.swift in Sources */,
+				798CA9602995B4EB000BC7E2 /* CalendarModel.swift in Sources */,
+				79FA512229952E4100F95B14 /* DividendViewController.swift in Sources */,
+				79352A9D29944A1100517399 /* DataManager.swift in Sources */,
+				79352AA6299461DE00517399 /* SearchResults.swift in Sources */,
+				7995D08D299810E10032F9C5 /* TrendingTableViewCell.swift in Sources */,
+				79C2044829958B7700ED040C /* PortfolioValueViewController.swift in Sources */,
+				795E989629844F5A002053A0 /* DashboardViewController.swift in Sources */,
+				79FA512029952A5500F95B14 /* PersistenceManager.swift in Sources */,
+				797EB01229957B1400FE27E1 /* GoalProgressView.swift in Sources */,
+				79C6C01D2995BDC800445021 /* SettingsViewController.swift in Sources */,
+				797EB01429957E8C00FE27E1 /* GoalViewController.swift in Sources */,
+				79352AA129944AD700517399 /* HomeViewController.swift in Sources */,
+				795E987429844D5D002053A0 /* AppDelegate.swift in Sources */,
+				798CA9622995B873000BC7E2 /* CalendarTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		795E987929844D5D002053A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				795E987A29844D5D002053A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		795E988229844D5E002053A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		795E988329844D5E002053A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		795E988529844D5E002053A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B49SVXP593;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dividending/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dividending;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "App would like to access IDFA for showing you personalized ads";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launch.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.patrickfcf.dividending;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		795E988629844D5E002053A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B49SVXP593;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dividending/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dividending;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "App would like to access IDFA for showing you personalized ads";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launch.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.patrickfcf.dividending;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		795E986B29844D5D002053A0 /* Build configuration list for PBXProject "Dividending" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795E988229844D5E002053A0 /* Debug */,
+				795E988329844D5E002053A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		795E988429844D5E002053A0 /* Build configuration list for PBXNativeTarget "Dividending" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795E988529844D5E002053A0 /* Debug */,
+				795E988629844D5E002053A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		795E989229844E74002053A0 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		795E989329844E74002053A0 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 795E989229844E74002053A0 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		79FA511C29952A2800F95B14 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79FA511D29952A2800F95B14 /* Database.xcdatamodel */,
+			);
+			currentVersion = 79FA511D29952A2800F95B14 /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 795E986829844D5D002053A0 /* Project object */;
+}
