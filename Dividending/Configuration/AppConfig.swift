@@ -1,8 +1,8 @@
 //
 //  AppConfig.swift
-//  DivTracker
+//  Dividending
 //
-//  Created by Apps4World on 1/27/23.
+//  Created by Patrick Fonseca on 7/20/23.
 //
 
 import UIKit
@@ -25,9 +25,9 @@ class AppConfig {
     static let stockLogoAPI: String = "https://s3.polygon.io/logos/<symbol>/logo.png"
     
     // MARK: - Settings flow items
-    static let emailSupport = "support@apps4world.com"
-    static let privacyURL: URL = URL(string: "https://www.google.com/")!
-    static let termsAndConditionsURL: URL = URL(string: "https://www.google.com/")!
+    static let emailSupport = "support@dividending.io"
+    static let privacyURL: URL = URL(string: "https://dividending.io/privacy")!
+    static let termsAndConditionsURL: URL = URL(string: "https://dividending.io/terms")!
     static let yourAppURL: URL = URL(string: "https://apps.apple.com/app/idXXXXXXXXX")!
     
     // MARK: - Trending Dividend items

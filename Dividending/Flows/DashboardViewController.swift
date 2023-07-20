@@ -1,8 +1,8 @@
 //
 //  DashboardViewController.swift
-//  DivTracker
+//  Dividending
 //
-//  Created by Apps4World on 1/27/23.
+//  Created by Patrick Fonseca on 7/20/23.
 //
 
 import UIKit

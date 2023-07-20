@@ -1,8 +1,8 @@
 //
 //  PersistenceManager.swift
-//  DivTracker
+//  Dividending
 //
-//  Created by Apps4World on 3/6/23.
+//  Created by Patrick Fonseca on 7/20/23.
 //
 
 import UIKit

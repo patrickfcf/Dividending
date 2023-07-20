@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22113.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22089"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -15,19 +15,19 @@
         <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="DashboardViewController" customModule="AppTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="DashboardViewController" customModule="Dividending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dividend Tracker" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPf-Ho-W1H">
-                                <rect key="frame" x="20" y="79" width="353" height="33.666666666666657"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dividending" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPf-Ho-W1H">
+                                <rect key="frame" x="20" y="79" width="353" height="34"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="qk8-7s-thi">
-                                <rect key="frame" x="0.0" y="122.66666666666669" width="393" height="50"/>
+                                <rect key="frame" x="0.0" y="123" width="393" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="hdS-YE-yNg"/>
@@ -39,7 +39,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="Sbd-pC-7Kf" customClass="SegmentCollectionViewCell" customModule="AppTemplate" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="Sbd-pC-7Kf" customClass="SegmentCollectionViewCell" customModule="Dividending" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="73" height="42"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="8Su-lM-y8K">
@@ -75,10 +75,10 @@
                                 </connections>
                             </collectionView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gST-zb-IIA" userLabel="Center Area">
-                                <rect key="frame" x="20" y="172.66666666666663" width="353" height="233"/>
+                                <rect key="frame" x="20" y="173" width="353" height="232.66666666666663"/>
                                 <subviews>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hoq-bf-fuU">
-                                        <rect key="frame" x="0.0" y="0.0" width="353" height="233"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="232.66666666666666"/>
                                         <connections>
                                             <segue destination="aRZ-vz-chO" kind="embed" id="odE-l6-FYX"/>
                                         </connections>
@@ -148,7 +148,7 @@
         <!--Home View Controller-->
         <scene sceneID="fCu-SX-i2O">
             <objects>
-                <viewController id="2NS-H6-13B" customClass="HomeViewController" customModule="AppTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2NS-H6-13B" customClass="HomeViewController" customModule="Dividending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="12n-6c-GLk">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -172,10 +172,10 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="1Qk-TR-No2" customClass="HoldingCollectionViewCell" customModule="AppTemplate" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="1Qk-TR-No2" customClass="HoldingCollectionViewCell" customModule="Dividending" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="76" height="76"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="G4Y-zN-LKS" customClass="TileContainerView" customModule="AppTemplate" customModuleProvider="target">
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="G4Y-zN-LKS" customClass="TileContainerView" customModule="Dividending" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="76" height="76"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -232,7 +232,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tIr-QK-ns6" customClass="TileContainerView" customModule="AppTemplate" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tIr-QK-ns6" customClass="TileContainerView" customModule="Dividending" customModuleProvider="target">
                                 <rect key="frame" x="20" y="269.66666666666669" width="353" height="100"/>
                                 <subviews>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V3C-5M-oKZ">
@@ -343,7 +343,7 @@
         <!--News View Controller-->
         <scene sceneID="AKE-Dx-w9C">
             <objects>
-                <viewController id="935-db-1mD" customClass="NewsViewController" customModule="AppTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="935-db-1mD" customClass="NewsViewController" customModule="Dividending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Z2J-VJ-lWi">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -364,15 +364,15 @@
                                 <rect key="frame" x="0.0" y="126" width="393" height="726"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="U6Y-3N-zoV" customClass="NewsTableViewCell" customModule="AppTemplate" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="81.333335876464844"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="U6Y-3N-zoV" customClass="NewsTableViewCell" customModule="Dividending" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="81.666664123535156"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="U6Y-3N-zoV" id="y0K-83-Aof">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="81.333335876464844"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="81.666664123535156"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="240" verticalHuggingPriority="240" horizontalCompressionResistancePriority="740" verticalCompressionResistancePriority="740" text="PROVIDER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rD2-e0-uMJ">
-                                                    <rect key="frame" x="19.999999999999996" y="20" width="59.666666666666657" height="14.666666666666664"/>
+                                                    <rect key="frame" x="19.999999999999996" y="20" width="59.666666666666657" height="15"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -384,7 +384,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title label up to 1 line" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YoU-PM-z1Y">
-                                                    <rect key="frame" x="20" y="39.666666666666664" width="353" height="21.666666666666664"/>
+                                                    <rect key="frame" x="20" y="40" width="353" height="21.666666666666671"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -443,7 +443,7 @@
         <!--Search-->
         <scene sceneID="ahV-ER-eD1">
             <objects>
-                <viewController id="yy3-dS-az9" customClass="SearchViewController" customModule="AppTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="yy3-dS-az9" customClass="SearchViewController" customModule="Dividending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LJd-Hl-azs">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -494,7 +494,7 @@ dividend portfolio</string>
         <!--Dividend View Controller-->
         <scene sceneID="USu-AX-ABu">
             <objects>
-                <viewController storyboardIdentifier="dividendController" id="GwE-TC-fA8" customClass="DividendViewController" customModule="AppTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="dividendController" id="GwE-TC-fA8" customClass="DividendViewController" customModule="Dividending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lGc-pm-sRW">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -652,7 +652,7 @@ dividend portfolio</string>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$0.00" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bPJ-y6-qUq" customClass="PriceTextField" customModule="AppTemplate" customModuleProvider="target">
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$0.00" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bPJ-y6-qUq" customClass="PriceTextField" customModule="Dividending" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="17.999999999999996" width="118" height="49.666666666666657"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
@@ -752,7 +752,7 @@ dividend portfolio</string>
         <!--Calendar View Controller-->
         <scene sceneID="hpe-UH-qgr">
             <objects>
-                <viewController id="HcA-JY-EhH" customClass="CalendarViewController" customModule="AppTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HcA-JY-EhH" customClass="CalendarViewController" customModule="Dividending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mTh-Ii-d22">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -774,7 +774,7 @@ dividend portfolio</string>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="Bty-bq-8pk" customClass="CalendarTableViewCell" customModule="AppTemplate" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="Bty-bq-8pk" customClass="CalendarTableViewCell" customModule="Dividending" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="100.33333587646484"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bty-bq-8pk" id="b9q-EY-jRr">
@@ -900,7 +900,7 @@ dividend portfolio</string>
         <!--Settings View Controller-->
         <scene sceneID="wcg-gg-TaI">
             <objects>
-                <viewController id="ZI8-MF-uZl" customClass="SettingsViewController" customModule="AppTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZI8-MF-uZl" customClass="SettingsViewController" customModule="Dividending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nLv-1K-5sf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -929,7 +929,7 @@ dividend portfolio</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FW5-0O-zY9" customClass="TileContainerView" customModule="AppTemplate" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FW5-0O-zY9" customClass="TileContainerView" customModule="Dividending" customModuleProvider="target">
                                 <rect key="frame" x="20" y="125.33333333333331" width="353" height="100"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Eqs-H0-w0i">
@@ -941,7 +941,7 @@ dividend portfolio</string>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: $500" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I0G-ye-MLM" customClass="PriceTextField" customModule="AppTemplate" customModuleProvider="target">
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: $500" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I0G-ye-MLM" customClass="PriceTextField" customModule="Dividending" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="25" width="313" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="02h-SN-khJ"/>
@@ -1016,7 +1016,7 @@ dividend portfolio</string>
         <!--Bottom View Controller-->
         <scene sceneID="BGd-Fy-gH2">
             <objects>
-                <viewController storyboardIdentifier="bottomController" id="C2g-IS-YR4" customClass="BottomViewController" customModule="AppTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="bottomController" id="C2g-IS-YR4" customClass="BottomViewController" customModule="Dividending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ClZ-rx-RDd">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1082,19 +1082,19 @@ dividend portfolio</string>
         <!--Goal View Controller-->
         <scene sceneID="fcY-fR-uqV">
             <objects>
-                <viewController id="YXG-Yy-O0R" customClass="GoalViewController" customModule="AppTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YXG-Yy-O0R" customClass="GoalViewController" customModule="Dividending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OON-f9-2pY">
                         <rect key="frame" x="0.0" y="0.0" width="353" height="100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Qb-C9-f6y">
-                                <rect key="frame" x="0.0" y="0.0" width="353" height="100"/>
+                                <rect key="frame" x="0.0" y="0.0" width="353" height="91"/>
                                 <connections>
                                     <segue destination="KjO-cE-IH8" kind="embed" id="RDB-TM-MZI"/>
                                 </connections>
                             </containerView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="UTV-TY-eyT">
-                                <rect key="frame" x="20" y="20" width="313" height="60"/>
+                                <rect key="frame" x="20" y="20" width="313" height="51"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set up your goal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGA-wL-UmA">
                                         <rect key="frame" x="0.0" y="0.0" width="105.33333333333333" height="17"/>
@@ -1102,8 +1102,8 @@ dividend portfolio</string>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: $500" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j88-1V-efc" customClass="PriceTextField" customModule="AppTemplate" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="25" width="313" height="35"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: $500" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j88-1V-efc" customClass="PriceTextField" customModule="Dividending" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="17" width="313" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="ftP-UP-glA"/>
                                         </constraints>
@@ -1116,7 +1116,7 @@ dividend portfolio</string>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHN-wS-LG8">
-                                <rect key="frame" x="280.66666666666669" y="49.666666666666664" width="47.333333333333314" height="25.999999999999993"/>
+                                <rect key="frame" x="280.66666666666669" y="41" width="47.333333333333314" height="26"/>
                                 <color key="tintColor" name="AccentColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Save">
@@ -1156,9 +1156,9 @@ dividend portfolio</string>
         <!--Portfolio Value View Controller-->
         <scene sceneID="7Cs-4G-uFx">
             <objects>
-                <viewController id="aRZ-vz-chO" customClass="PortfolioValueViewController" customModule="AppTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aRZ-vz-chO" customClass="PortfolioValueViewController" customModule="Dividending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NNU-Jh-Img">
-                        <rect key="frame" x="0.0" y="0.0" width="353" height="233"/>
+                        <rect key="frame" x="0.0" y="0.0" width="353" height="232.66666666666666"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="cHH-mk-7rW">
@@ -1308,13 +1308,13 @@ dividend portfolio</string>
         <!--Goal View Controller-->
         <scene sceneID="G4A-bT-w8W">
             <objects>
-                <viewController id="KjO-cE-IH8" customClass="GoalViewController" customModule="AppTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KjO-cE-IH8" customClass="GoalViewController" customModule="Dividending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j3O-bm-nl7">
-                        <rect key="frame" x="0.0" y="0.0" width="353" height="100"/>
+                        <rect key="frame" x="0.0" y="0.0" width="353" height="91"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zf6-uZ-vBv" customClass="GoalProgressView" customModule="AppTemplate" customModuleProvider="target">
-                                <rect key="frame" x="16" y="55" width="321" height="30"/>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zf6-uZ-vBv" customClass="GoalProgressView" customModule="Dividending" customModuleProvider="target">
+                                <rect key="frame" x="16" y="46" width="321" height="30"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Nv3-cx-dAb"/>
@@ -1396,7 +1396,7 @@ Try again later?</string>
         <!--Trending View Controller-->
         <scene sceneID="0qe-nd-FqR">
             <objects>
-                <viewController id="dvk-NP-K8q" customClass="TrendingViewController" customModule="AppTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dvk-NP-K8q" customClass="TrendingViewController" customModule="Dividending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wrg-da-zIq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1412,7 +1412,7 @@ Try again later?</string>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="Jci-DW-mNM" customClass="TrendingTableViewCell" customModule="AppTemplate" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="Jci-DW-mNM" customClass="TrendingTableViewCell" customModule="Dividending" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="100.33333587646484"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jci-DW-mNM" id="fXw-eb-5pQ">
@@ -1540,7 +1540,7 @@ Try again later?</string>
         <image name="logo" width="91" height="92"/>
         <image name="plus.app" catalog="system" width="128" height="114"/>
         <namedColor name="AccentColor">
-            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.77254901960784317" green="0.027450980392156862" blue="0.023529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
