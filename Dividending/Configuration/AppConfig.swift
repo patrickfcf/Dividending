@@ -26,9 +26,9 @@ class AppConfig {
     
     // MARK: - Settings flow items
     static let emailSupport = "support@dividending.io"
-    static let privacyURL: URL = URL(string: "https://dividending.io/privacy")!
-    static let termsAndConditionsURL: URL = URL(string: "https://dividending.io/terms")!
-    static let yourAppURL: URL = URL(string: "https://apps.apple.com/app/idXXXXXXXXX")!
+    static let privacyURL: URL = URL(string: "http://dividending.io/privacy")!
+    static let termsAndConditionsURL: URL = URL(string: "http://dividending.io/terms")!
+    static let yourAppURL: URL = URL(string: "http://apps.apple.com/app/idXXXXXXXXX")!
     
     // MARK: - Trending Dividend items
     static let trendingItems: [DividendModel] = [
