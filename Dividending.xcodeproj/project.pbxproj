@@ -479,6 +479,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Dividending/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Dividending;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "App would like to access IDFA for showing you personalized ads";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = Launch.storyboard;
@@ -514,6 +515,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Dividending/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Dividending;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "App would like to access IDFA for showing you personalized ads";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = Launch.storyboard;

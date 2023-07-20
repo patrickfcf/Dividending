@@ -14,7 +14,7 @@ class AppConfig {
     
     /// This is the AdMob Interstitial ad id
     /// Test App ID: ca-app-pub-3940256099942544~1458002511
-    static let adMobAdId: String = "ca-app-pub-3940256099942544/4411468910"
+    static let adMobAdId: String = "ca-app-pub-1884043504892272~3219363851"
     
     // MARK: - Generic Configurations
     static let apiHost: String = "https://api.nasdaq.com/api"
@@ -42,7 +42,7 @@ class AppConfig {
     
     // MARK: - In App Purchases
     static let premiumVersion: String = "DivTracker.Premium"
-    static let freePortfolioItems: Int = 2
+    static let freePortfolioItems: Int = 5
 }
 
 // MARK: - Dashboard flows
