@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4773CFD72A6AE76A0015295A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4773CFD62A6AE76A0015295A /* GoogleService-Info.plist */; };
 		7925A0522984C62C009EB5D8 /* PurchaseKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795E988C29844E11002053A0 /* PurchaseKit.xcframework */; };
 		7925A0532984C62C009EB5D8 /* PurchaseKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 795E988C29844E11002053A0 /* PurchaseKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		79352A8E2994485400517399 /* SegmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79352A8D2994485400517399 /* SegmentCollectionViewCell.swift */; };
@@ -61,6 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4773CFD62A6AE76A0015295A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		79352A8D2994485400517399 /* SegmentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentCollectionViewCell.swift; sourceTree = "<group>"; };
 		79352A91299448E800517399 /* TileContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileContainerView.swift; sourceTree = "<group>"; };
 		79352A952994492E00517399 /* BottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				795E988C29844E11002053A0 /* PurchaseKit.xcframework */,
 				795E987C29844D5E002053A0 /* Assets.xcassets */,
 				795E988129844D5E002053A0 /* Info.plist */,
+				4773CFD62A6AE76A0015295A /* GoogleService-Info.plist */,
 			);
 			path = Dividending;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			files = (
 				795E987D29844D5E002053A0 /* Assets.xcassets in Resources */,
 				795E987B29844D5D002053A0 /* Main.storyboard in Resources */,
+				4773CFD72A6AE76A0015295A /* GoogleService-Info.plist in Resources */,
 				79352AAE2994699800517399 /* ResultTableViewCell.xib in Resources */,
 				795E988D29844E11002053A0 /* Launch.storyboard in Resources */,
 			);
