@@ -1158,7 +1158,7 @@ dividend portfolio</string>
             <objects>
                 <viewController id="aRZ-vz-chO" customClass="PortfolioValueViewController" customModule="Dividending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NNU-Jh-Img">
-                        <rect key="frame" x="0.0" y="0.0" width="353" height="232.66666666666666"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="cHH-mk-7rW">
