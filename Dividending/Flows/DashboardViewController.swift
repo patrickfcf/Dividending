@@ -11,6 +11,8 @@ import UIKit
 class DashboardViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var toggleSwitch: UISwitch! 
+    @IBOutlet weak var eyeImage: UIImageView!
     private var selectedTab: SegmentedTabType = .dashboard
     private var bottomController: BottomViewController?
 
@@ -55,6 +57,14 @@ class DashboardViewController: UIViewController {
             present(bottomController!, animated: true)
         }
         bottomController?.updateSelectedTab(selectedTab)
+    }
+    
+    @IBAction func toggleSwitchAction(_ sender: Any) {
+        if toggleSwitch.isOn {
+            eyeImage.image = UIImage(systemName:"eye")
+        } else {
+            eyeImage.image = UIImage(systemName:"eye.slash")
+        }
     }
 }
 
