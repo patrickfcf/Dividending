@@ -29,6 +29,7 @@ class AppConfig {
     static let privacyURL: URL = URL(string: "http://dividending.io")!
     static let termsAndConditionsURL: URL = URL(string: "http://dividending.io")!
     static let yourAppURL: URL = URL(string: "http://apps.apple.com/app/idXXXXXXXXX")!
+    static let communityURL: URL = URL(string: "https://discord.com/invite/3xVnwd3R")!
     static let aboutCreatorURL: URL = URL(string: "https://bento.me/patrickfcf")!
     
     // MARK: - Trending Dividend items
@@ -60,6 +61,7 @@ enum SettingsItem: String, CaseIterable {
     case contactUs = "Contact Us"
     case termsOfUse = "Terms & Conditions"
     case privacyPolicy = "Privacy Policy"
+    case community = "Community"
     case aboutCreator = "About the Creator"
     
     /// Item Icon
@@ -72,6 +74,7 @@ enum SettingsItem: String, CaseIterable {
         case .premiumUpgrade: return "crown.fill"
         case .termsOfUse: return "doc.text.fill"
         case .privacyPolicy: return "checkmark.shield.fill"
+        case .community: return "person.2.circle.fill"
         case .aboutCreator: return "person.crop.square.filled.and.at.rectangle.fill"
         }
     }

@@ -20,6 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         PKManager.loadProducts(identifiers: [AppConfig.premiumVersion])
         NotificationCenter.default.addObserver(forName: UIApplication.didBecomeActiveNotification, object: nil, queue: nil) { _ in self.requestIDFA() }
         GADMobileAds.sharedInstance().start(completionHandler: nil)
+        
+        let defaults = UserDefaults.standard
+        let hideValues = ["hideValues" : "false"]
+        defaults.register(defaults: hideValues)
+        
         return true
     }
     
@@ -40,6 +45,7 @@ class Interstitial: NSObject, GADFullScreenContentDelegate {
     /// Default initializer of interstitial class
     override init() {
         super.init()
+        hideValues()
         loadInterstitial()
     }
 
@@ -61,6 +67,10 @@ class Interstitial: NSObject, GADFullScreenContentDelegate {
 
     func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
         loadInterstitial()
+    }
+    
+    func hideValues() {
+        
     }
 }
 

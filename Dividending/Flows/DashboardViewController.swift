@@ -60,10 +60,16 @@ class DashboardViewController: UIViewController {
     }
     
     @IBAction func toggleSwitchAction(_ sender: Any) {
+        
+        let defaults = UserDefaults.standard
+        let hideValues = defaults.string(forKey: "hideValues")
+        
         if toggleSwitch.isOn {
             eyeImage.image = UIImage(systemName:"eye")
+            defaults.set("false", forKey: "hideValues")
         } else {
             eyeImage.image = UIImage(systemName:"eye.slash")
+            defaults.set("true", forKey: "hideValues")
         }
     }
 }

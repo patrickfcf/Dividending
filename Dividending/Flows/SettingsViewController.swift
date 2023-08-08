@@ -113,6 +113,8 @@ extension SettingsViewController {
             if let scene = windowScene {
                 SKStoreReviewController.requestReview(in: scene)
             }
+        case .community:
+            UIApplication.shared.open(AppConfig.communityURL)
         case .aboutCreator:
             UIApplication.shared.open(AppConfig.aboutCreatorURL)
         }
